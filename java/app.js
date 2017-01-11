@@ -1,4 +1,4 @@
-var fortuneList = ["You are unlucky.","You will pass your test", "I dont know", "Never say GoodBye", " Your Dreams Will Come True"];
+var fortuneList = ["You are unlucky.","You will pass your test", "Ask your mom", "Never say GoodBye", " Your Dreams Will Come True"];
 
 function generateFortuneCookie(){
 	var node = document.createElement("li");
