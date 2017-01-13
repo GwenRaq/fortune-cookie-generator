@@ -1,8 +1,13 @@
-var fortuneList = ["You are unlucky.","You will pass your test", "Ask your mom", "Never say GoodBye", " Your Dreams Will Come True"];
+var fortuneList = ["You are unlucky.","You will pass your test", "You will become rich", "Never say GoodBye", " Your Dreams Will Come True"];
 
 function generateFortuneCookie(){
-	var node = document.createElement("li");
-	var textnode = document.createTextNode(fortuneList[Math.floor(Math.random() * fortuneList.length)]);
-	node.appendChild(textnode);
-	document.getElementById("fortune-cookie-text").appendChild(node);
+	var fortune = fortuneList[Math.floor(Math.random() * fortuneList.length)];
+	document.getElementById("fortune-cookie-text").innerHTML=fortune;
+
+	//PREVIOUS
+	var list = document.getElementById('list');
+	var idk = document.createElement("li");
+	idk.appendChild(document.createTextNode(fortune));
+	list.appendChild(idk);	
 }
+

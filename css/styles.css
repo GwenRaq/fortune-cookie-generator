@@ -1,14 +1,6 @@
-ul{
-	height: auto;
-	width: 160px;
-	background-color: orange;
-	border: none;
-	margin: 10px;
-	margin-left: 47.5%;
-	margin-top: 5%;
-	border:none;
+body{
+	background-image: url(http://freevectorfinder.com/images/thumb/hand-drawn-fortune-cookie-vectors-23288.jpg);
 }
-
 button{
 	margin-left: 5%;
 	margin-top: 5%;
@@ -20,7 +12,24 @@ button{
     display: inline-block;
     font-size: 16px;
 }
-
-body{
-	background-image: url(http://freevectorfinder.com/images/thumb/hand-drawn-fortune-cookie-vectors-23288.jpg);
+#fortune-cookie-text{
+	height: auto;
+	width: 160px;
+	background-color: orange;
+	border: none;
+	margin: 10px;
+	margin-top: 2%;
+	border:none;
+	padding: 5px 5px;
+	text-align: center;
+}
+#previous-fortune{
+	border: 2px solid black;
+	color: white;
+	background-color: black;
+	padding: 5px 5px;
+	height: auto;
+	width: 200px;      
+	margin-top: 5%;
+	text-align: center;      
 }
